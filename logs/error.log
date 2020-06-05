@@ -1,0 +1,180 @@
+2020-06-05 15:55:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles
+
+
+2020-06-05 15:55:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Tags could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Tags',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /tags
+
+
+2020-06-05 15:55:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /users
+
+
+2020-06-05 15:55:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Articles could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Articles',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /articles
+
+
+2020-06-06 01:13:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Posts could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Posts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /posts
+
+
+2020-06-06 01:15:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Posts could not be found. (/Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Posts',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php(124): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /Applications/MAMP/htdocs/cake3php/vendor/cakephp/cakephp/src/Http/Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 /Applications/MAMP/htdocs/cake3php/webroot/index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /posts
+
+
